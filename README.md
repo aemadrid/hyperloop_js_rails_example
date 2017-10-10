@@ -1,24 +1,31 @@
-# README
+# Hyperloop Example Rails 5 App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example Rails 5 app with Hyperloop JS with Sprockets
 
-Things you may want to cover:
+## Objective
 
-* Ruby version
+* have all client Hyperloop libraries loaded easily
+  * single file ?
+  * webpack ?
+  * online ?
+* build components/stores/operations/router locally
+  * opal files
+    * app/assets/javascripts/ ?
+    * app/javascript/packs/ ?
+* no long precompile penalty
+  * `HYPERLOOP LIBRARIES PRECOMPILING AND MINIFYING`
 
-* System dependencies
+## Experiment
 
-* Configuration
+This app is an experiment using `sprockets` to accomplish those goals:
 
-* Database creation
+1. uses Sprockets to generate all React/Hyperloop code
+  * http://localhost:3085/hello_world/index
 
-* Database initialization
+## Usage
 
-* How to run the test suite
+To start puma and webpack run:
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```shell
+foreman start
+```
