@@ -20,7 +20,8 @@ Example Rails 5 app with Hyperloop JS with Sprockets
 This app is an experiment using `sprockets` to accomplish those goals:
 
 1. uses Sprockets to generate all React/Hyperloop code
-  * http://localhost:3085/hello_world/index
+  * example: http://localhost:3085/hello_world/index
+  * status: working
 
 ## Usage
 
