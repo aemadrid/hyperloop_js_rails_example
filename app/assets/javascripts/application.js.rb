@@ -6,6 +6,7 @@ require 'vendor/react-router'
 require 'vendor/react-router-dom'
 
 require 'opal'
+require 'opal-browser'
 require 'opal-jquery'
 require 'native'
 require 'active_support'
