@@ -1,5 +1,7 @@
 class App  < Hyperloop::Router
-  history :browser
+  # history :browser
+  # history :memory
+  history :hash
 
   route do
     DIV do

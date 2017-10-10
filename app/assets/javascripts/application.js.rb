@@ -1,6 +1,7 @@
 require 'vendor/react'
 require 'vendor/react-dom'
 require 'vendor/jquery-2.1.4'
+require 'vendor/history'
 require 'vendor/react-router'
 require 'vendor/react-router-dom'
 
